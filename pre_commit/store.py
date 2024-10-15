@@ -9,15 +9,15 @@ from collections.abc import Generator
 from collections.abc import Sequence
 from typing import Callable
 
-import pre_commit.constants as C
-from pre_commit import clientlib
-from pre_commit import file_lock
-from pre_commit import git
-from pre_commit.util import CalledProcessError
-from pre_commit.util import clean_path_on_failure
-from pre_commit.util import cmd_output_b
-from pre_commit.util import resource_text
-from pre_commit.util import rmtree
+import pre_commit.constants as C # type: ignore
+from pre_commit import clientlib # type: ignore
+from pre_commit import file_lock # type: ignore
+from pre_commit import git # type: ignore
+from pre_commit.util import CalledProcessError # type: ignore
+from pre_commit.util import clean_path_on_failure # type: ignore
+from pre_commit.util import cmd_output_b # type: ignore
+from pre_commit.util import resource_text # type: ignore
+from pre_commit.util import rmtree # type: ignore
 
 
 logger = logging.getLogger('pre_commit')
